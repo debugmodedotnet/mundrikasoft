@@ -20,6 +20,7 @@ export class UserComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
     this.userRegistrationForm = this.fb.group({
       locale: ['en-us'],
       accept_terms_and_conditions: [true],
